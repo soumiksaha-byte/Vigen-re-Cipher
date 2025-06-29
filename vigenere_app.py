@@ -30,7 +30,7 @@ def vigenere_decrypt(cipher_text, keyword):
 # Streamlit UI
 st.set_page_config(page_title="CipherShield", layout="centered")
 
-st.title("🔐CipherShield: Secure Text with Vigenère Cipher & Streamlit")
+st.title("🔐CipherShield")
 
 text = st.text_area("Enter your text:", height=150)
 keyword = st.text_input("Enter keyword:")
