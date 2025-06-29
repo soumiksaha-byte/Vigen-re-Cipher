@@ -28,9 +28,9 @@ def vigenere_decrypt(cipher_text, keyword):
     return result
 
 # Streamlit UI
-st.set_page_config(page_title="Vigenère Cipher App", layout="centered")
+st.set_page_config(page_title="CipherShield", layout="centered")
 
-st.title("🔐 Vigenère Cipher Web App")
+st.title("🔐CipherShield: Secure Text with Vigenère Cipher & Streamlit")
 
 text = st.text_area("Enter your text:", height=150)
 keyword = st.text_input("Enter keyword:")
